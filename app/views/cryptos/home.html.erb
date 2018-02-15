@@ -1,0 +1,9 @@
+<h1>Rechercher le cours d'une crypto-monnaie</h1>
+<p> </p>
+
+<%= form_tag (cryptos_search_path) do %>
+  <%= label_tag 'text', 'Nom de la crypto-monnaie :' %>
+    <%= select_tag :name, options_for_select(@crypto_names.collect{|crypto_name| crypto_name})%> 
+	<p> <%= submit_tag 'Afficher le cours actuel', method: :post%></p>
+<% end %>
+
