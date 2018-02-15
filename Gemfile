@@ -39,8 +39,8 @@ gem 'bcrypt', '3.1.11'
 gem 'gravatar_image_tag'
 gem 'bootstrap'
 gem 'devise'
-#gem 'sqlite3'
-gem 'pg', '0.20.0'
+gem 'sqlite3'
+#gem 'pg', '0.20.0'
 gem 'nokogiri'
 
 
