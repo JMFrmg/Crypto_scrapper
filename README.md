@@ -1,9 +1,9 @@
 # Bienvenue sur mon script Crypto_scrapper!
 
-# Fonction :
+## Fonction :
 Ce programme n'a qu'une seule fonction. L'utilisateur doit choisir le nom d'une crypto-monnaie dans un menu déroulant. Le cours actuel de cette monnaie lui est alors renvoyé.
 
-# Fonctionnement :
+## Fonctionnement :
 * Une requête GET avec comme adresse root transmise par l'utilisateur est envoyée à la méthode home du controlleur cryptos.
 * Celui-ci crée un objet de la classe ScrapCryptos (app/services/scrap_cryptos.rb).
 * La méthode get_cryptos de cet objet scrappe sur un site internet les noms de toutes les crypto_monnaies et les renvoie sous la forme d'une liste
